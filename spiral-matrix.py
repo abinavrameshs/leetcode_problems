@@ -3,6 +3,7 @@ Problem : Spiral Matrix
 https://leetcode.com/problems/spiral-matrix/description/
 
 """
+from typing import List
 
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
@@ -46,3 +47,11 @@ class Solution:
             else : 
                 flag = False
         return lst
+
+    
+    
+a = Solution()
+
+# %%
+matrix = [[7],[9],[6]]
+a.spiralOrder(matrix=matrix)
